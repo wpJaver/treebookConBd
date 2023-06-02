@@ -1,0 +1,166 @@
+[
+  {
+    "model": "company.Thing",
+    "pk": 1,
+    "fields": {
+      "image": "thing-1",
+      "title": "Sign Up",
+      "body": "Sign Up Completes all the work associated with planning and processing"
+    }
+  },
+  {
+    "model": "company.Thing",
+    "pk": 2,
+    "fields": {
+      "image": "thing-2",
+      "title": "Worth of Money",
+      "body": "After successful access then book from exclusive deals & pricing"
+    }
+  },
+  {
+    "model": "company.Thing",
+    "pk": 3,
+    "fields": {
+      "image": "thing-3",
+      "title": "Exciting Travel",
+      "body": "Start and explore a wide range of exciting travel experience."
+    }
+  },
+  {
+      "model": "company.ExclusiveDeal",
+      "pk": 1,
+      "fields": {
+        "city": "Madrid",
+        "rating": "4.8",
+        "country": "Spain",
+        "old_price": "950",
+        "new_price": "850",
+        "image": "Madrid"
+      }
+    },
+    {
+      "model": "company.ExclusiveDeal",
+      "pk": 2,
+      "fields": {
+        "city": "Firenze",
+        "rating": "4.5",
+        "country": "Italy",
+        "old_price": "850",
+        "new_price": "750",
+        "image": "Firense"
+      }
+    },
+    {
+      "model": "company.ExclusiveDeal",
+      "pk": 3,
+      "fields": {
+        "city": "Paris",
+        "rating": "4.4",
+        "country": "France",
+        "old_price": "699",
+        "new_price": "599",
+        "image": "Paris"
+      }
+    },
+    {
+      "model": "company.ExclusiveDeal",
+      "pk": 4,
+      "fields": {
+        "city": "London",
+        "rating": "4.8",
+        "country": "UK",
+        "old_price": "850",
+        "new_price": "850",
+        "image": "London"
+      }
+    },
+
+   {
+      "model": "company.GetUpdate",
+      "pk": 1,
+      "fields": {
+        "text": "The Amazing Difference a Year of Travelling .",
+        "date": "July 27, 2021",
+        "image": "amazing-diference-year"
+      }
+    },
+    {
+      "model": "company.GetUpdate",
+      "pk": 2,
+      "fields": {
+        "text": "The Amazing Difference a Year of Travelling .",
+        "date": "July 27, 2021",
+        "image": "travel-for-enough"
+      }
+    },
+    {
+      "model": "company.GetUpdate",
+      "pk": 3,
+      "fields": {
+        "text": "The Amazing Difference a Year of Travelling .",
+        "date": "July 27, 2021",
+        "image": "save-money-while"
+      }
+    },
+
+  {
+      "model": "company.MainBanner",
+      "pk": 1,
+      "fields": {
+        "name": "Location",
+        "text": "Where are you doing",
+        "options_list": ["op1", "op2", "op3"]
+      }
+    },
+    {
+      "model": "company.MainBanner",
+      "pk": 2,
+      "fields": {
+        "name": "date",
+        "text": "Where are you doing2",
+        "options_list": ["op4", "op5", "op6"]
+      }
+    },
+    {
+      "model": "company.MainBanner",
+      "pk": 3,
+      "fields": {
+        "name": "Guest",
+        "text": "Where are you doing3",
+        "options_list": ["op7", "op8", "op9"]
+      }
+    },
+    {
+      "model": "company.VacationPlan",
+      "pk": 1,
+      "fields": {
+        "city": "Rome, Italy",
+        "price": "5.42K",
+        "quantity_days": "10 Days Trip",
+        "rating": "4.8",
+        "image": "osaka"
+      }
+    },
+    {
+      "model": "company.VacationPlan",
+      "pk": 2,
+      "fields": {
+        "city": "London, UK",
+        "price": "2.42K",
+        "quantity_days": "07 Days Trip",
+        "rating": "4.7",
+        "image": "london2"
+      }
+    },
+    {
+      "model": "company.VacationPlan",
+      "pk": 3,
+      "fields": {
+        "city": "Osaka,Japan",
+        "price": "5.42K",
+        "quantity_days": "10 Days Trip",
+        "rating": "4.8",
+        "image": "osaka"
+      }
+    }
+]
